@@ -1,16 +1,26 @@
+import { useEffect, useState } from "react";
+import { Route, Routes } from 'react-router-dom'
 import Home from "./Pages/Home";
 
-import { Route, Routes } from 'react-router-dom'
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
 
-  return (  
+  useEffect(() => {
+    const html = document.documentElement;
+    if (darkMode) {
+      html.classList.add('dark');
+    } else {
+      html.classList.remove('dark');
+    }
+  }, [darkMode]);
+
+  return (
     <>
- <Routes>
-<Route path='/' element={<Home/>}/>
+      <Routes>
+        <Route path='/' element={<Home darkMode={darkMode} setDarkMode={setDarkMode} />} />
       </Routes>
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;
