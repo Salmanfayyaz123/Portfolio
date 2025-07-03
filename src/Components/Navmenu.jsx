@@ -26,9 +26,15 @@ const Navmenu = () => {
   {/* <div className='w-16 h-16 cursor-pointer'>
    <img src={Sun} />
   </div> */}
-  <button className='px-4 py-2 bg-gray-900 text-white rounded-xl cursor-pointer'>
-    Download CV
-  </button>
+  <a
+  href="/SALMANFAYYAZ.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-4 py-2 bg-gray-900 text-white rounded-xl cursor-pointer"
+>
+  Download CV
+</a>
+
 </div>
 
         </div>
