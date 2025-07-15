@@ -33,9 +33,18 @@ const Contactme = () => {
 
         {/* Social Icons */}
         <div className='flex flex-row gap-6 text-2xl sm:text-3xl md:text-4xl cursor-pointer'>
-          <i className='fa-brands fa-github'></i>
-          <i className='fa-brands fa-x-twitter'></i>
-          <i className='fa-brands fa-linkedin'></i>
+          <a href="https://github.com/Salmanfayyaz123" target="_blank" rel="noopener noreferrer">
+  <i className="fa-brands fa-github"></i>
+</a>
+
+<a href="https://twitter.com/Salman1478271" target="_blank" rel="noopener noreferrer">
+  <i className="fa-brands fa-x-twitter"></i>
+</a>
+
+<a href="https://linkedin.com/in/salman-fayyaz-206366289" target="_blank" rel="noopener noreferrer">
+  <i className="fa-brands fa-linkedin"></i>
+</a>
+
         </div>
       </div>
     </div>
