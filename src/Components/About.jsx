@@ -61,9 +61,9 @@ const About = () => {
             <li>Based in Pakistan</li>
           </ul>
 
-          <p>
+          {/* <p>
             One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
