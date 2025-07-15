@@ -18,8 +18,8 @@ const Navmenu = () => {
         <div className='hidden md:flex items-center space-x-6'>
           <div className='flex space-x-4'>
              <a href="#about">About</a>
-  <a href="#work">Work</a>
-  <a href="#testimonials">Testimonials</a>
+  {/* <a href="#work">Work</a> */}
+  {/* <a href="#testimonials">Testimonials</a> */}
   <a href="#contact">Contact</a>
           </div>
           <div className='flex items-center space-x-4'>
@@ -51,8 +51,9 @@ const Navmenu = () => {
       {isOpen && (
         <div className='mt-4 flex flex-col space-y-4 md:hidden'>
           <NavLink to='/about' onClick={() => setIsOpen(false)}>About</NavLink>
-          <NavLink to='/work' onClick={() => setIsOpen(false)}>Work</NavLink>
-          <NavLink to='/testimonials' onClick={() => setIsOpen(false)}>Testimonials</NavLink>
+
+          {/* <NavLink to='/work' onClick={() => setIsOpen(false)}>Work</NavLink> */}
+          {/* <NavLink to='/testimonials' onClick={() => setIsOpen(false)}>Testimonials</NavLink> */}
           <NavLink to='/contact' onClick={() => setIsOpen(false)}>Contact</NavLink>
           <div className='flex items-center space-x-4'>
             <i className='fa-solid fa-sun text-2xl cursor-pointer'></i>

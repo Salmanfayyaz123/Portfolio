@@ -16,8 +16,11 @@ const Home = ({ darkMode, setDarkMode }) => {
       <section id="about"><About /></section>
       <section id="skills"><Skills /></section>
       <section id="experience"><Experience /></section>
-      <section id="work"><Work /></section>
-      <section id="testimonials"><Testimonial /></section>
+
+      {/* <section id="work"><Work /></section> */}
+
+      {/* <section id="testimonials"><Testimonial /></section> */}
+
       <section id="contact"><Contactme /></section>
       <Footer />
     </div>

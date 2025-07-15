@@ -1,44 +1,20 @@
 import React from 'react';
-import upwork from '../assets/upwork.png';
+import Glims from '../assets/Glims.png';
 
 const Experience = () => {
   const experiences = [
     {
-      title: 'Sr. Frontend Developer',
-      company: 'Upwork',
-      logo: upwork,
-      period: 'Nov 2021 - Present',
+      title: 'Full Stack Web Developer',
+      company: 'Glims Technologies Pvt. LTD',
+      logo: Glims,
+      period: 'Sep 2024 - July 2025',
       tasks: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'Ut pretium arcu et massa semper, id fringilla leo semper.',
-        'Sed quis justo ac magna.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        'Contributed to full stack web application development using modern technologies.',
+        'Built and maintained applications using Blazor Server, React.js, and Node.js.',
+        'Worked with MongoDB and SQL Server for efficient backend data management',
       ],
     },
-    {
-      title: 'Sr. Frontend Developer',
-      company: 'Upwork',
-      logo: upwork,
-      period: 'Nov 2021 - Present',
-      tasks: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'Ut pretium arcu et massa semper, id fringilla leo semper.',
-        'Sed quis justo ac magna.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      ],
-    },
-    {
-      title: 'Sr. Frontend Developer',
-      company: 'Upwork',
-      logo: upwork,
-      period: 'Nov 2021 - Present',
-      tasks: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        'Ut pretium arcu et massa semper, id fringilla leo semper.',
-        'Sed quis justo ac magna.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      ],
-    },
+   
   ];
 
   return (

@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="flex flex-col gap-y-2 text-base sm:text-lg">
             <p>
               <i className="fa-solid fa-location-dot mr-2"></i>
-              Bahawalpur, Pakistan
+              Lahore, Pakistan
             </p>
             <p>
               <i className="fa-solid fa-circle-dot text-emerald-500 mr-2"></i>
